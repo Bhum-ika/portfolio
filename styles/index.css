@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(25, 0, 25);
+
+}
+@keyframes slideInLeft{
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+.heading{
+ color:rgb(83, 118, 118);
+text-align:left;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:70px;
+margin-bottom: 0;
+
+ 
+}
+.heading2{
+    color:rgb(16, 171, 171);
+   text-align:left;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:50px;
+   margin-top: 0%;
+   margin-bottom: 2px;
+   text-shadow: 0.1vw 0 0.2vw aqua;
+
+    
+   }
+   .heading3{
+    color:rgb(83, 118, 118);
+   text-align:left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:30px;
+   margin-top: 0%;
+    
+   }
+.ima{
+ border-radius: 50%;
+}
+.right{
+  margin-top: 5%;
+  margin-right :auto;
+ margin-left:auto;
+ flex-shrink:0;
+}
+.left{
+ margin-top: 5%;
+ margin-left:30px;
+ flex-grow: 1;
+}
+.index{
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.footer{
+  position:fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+ height: 40px;
+ padding-top:10px;
+ padding-bottom:0;
+  background-color:rgb(41, 2, 30);
+  text-align: left;
+  margin-top: 20px;
+  
+ 
+}
+.link{
+  color:rgb(147, 104, 136);
+  margin:15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ position:static;
+}
+.btn1{
+  color: white;
+   height:45px;
+   width:150px;
+   font-family:initial;
+   font-size:20px;
+   font-weight: 700;
+   background-color: rgb(44, 5, 48);
+   border-radius: 10px;
+   transition: transform 0.3s, background-color 0.3s,color 0.4 s;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ width:300px;
+}
+.btn1:hover{
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:rgb(236, 205, 180);
+
+}
+h5{
+  color: aliceblue;
+  font-size: medium;
+}
+.title{
+  color: aliceblue;
+  text-align: center;
+  padding: 40px;
+  font-size: larger;
+}

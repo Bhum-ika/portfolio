@@ -1,0 +1,48 @@
+.sec1{
+    color: aliceblue;
+    display: flexbox;
+    flex-direction: column;
+    width:500px;
+    border:2px solid rgb(77, 77, 53);
+    padding: 20px;
+    margin:10px;
+    text-align: center;
+    background-color: rgb(24, 8, 22);
+}
+.skillsection1{
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    margin-bottom:50px;
+}
+.w3-light-grey{
+    width:90%;
+    height:24px;
+    color:white;
+    background-color: rgb(147, 104, 136);
+}
+.w3-light-grey2{
+    width:95%;
+    height:24px;
+    color:white;
+    background-color:rgb(123, 58, 131);
+}
+.w3-light-grey3{
+    width:70%;
+    height:24px;
+    color:white;
+    background-color:rgb(123, 58, 131);
+}
+.w3-light-grey4{
+    width:80%;
+    height:24px;
+    color:white;
+    background-color:rgb(123, 58, 131);
+}
+.w3-light-grey5{
+    width:82%;
+    height:24px;
+    color:white;
+    background-color:rgb(123, 58, 131);
+}
