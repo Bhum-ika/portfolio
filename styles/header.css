@@ -4,7 +4,7 @@ position: fixed;
   top: 0;
   left:0;
   height:80px;
-  border: 2px solid white;
+  
 }
 .link1{
     margin:20px;
@@ -15,13 +15,12 @@ position: fixed;
 }
 .header_logo{
 margin-right: 20%;
-border: 2px solid white;
-margin-top: 10px;
+margin-left: 20px;
+margin-top: 20px;
 width:40%;
 
 }
 .header_content{
-  border: 2px solid white;
   margin-left:70%;
-
+border:2px solid salmon;
 }
