@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import GithubIcon from "../../public/images/github-icon.svg";
+import GithubIcon from '../../public/images/github-icon.svg'
 import LinkedinIcon from "../../public/images/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
