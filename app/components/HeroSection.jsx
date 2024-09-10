@@ -42,7 +42,7 @@ const HeroSection = () => {
     <motion.div initial={{opacity:0, scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='col-span-4 place-self-center mt-4 lg:mt-0'>
     <div className='rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative' style={{ background: 'none', boxShadow: '10px 4px 10px rgba(145, 170, 219, 0.33), -10px -4px 10px rgba(135, 178, 212, 0.33), -4px 10px 15px 6px rgba(194, 8, 219, 0.33)' }}>
   <Image
-    src='/images/hero-image.png'
+    src='/images/hero-image.jpg'
     alt="hero image"
     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
     width={400}
