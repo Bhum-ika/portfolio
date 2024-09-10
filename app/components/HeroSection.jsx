@@ -30,7 +30,7 @@ const HeroSection = () => {
 
             </h1>
     <p className='text-[#ADB7BE]  text-base sm:text-lg lg:text-xl mb-6 mr-8'>
-    Over the past 3 years, I've dedicated myself to mastering new technologies and skills. I thrive on tackling new challenges and using them as opportunities to grow. Let's connect and explore the possibilities together.
+    Over the past 3 years, I&apos;ve dedicated myself to mastering new technologies and skills. I thrive on tackling new challenges and using them as opportunities to grow. Let&apos;s connect and explore the possibilities together.
      </p>
     <div>
         <button className='px-6 py-3 rounded-full mr-4 sm:w-fit w-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-200 text-white'>Hire me</button>
