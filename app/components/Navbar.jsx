@@ -8,7 +8,7 @@ import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid"
 const navLinks=[
     {
         title:"About",
-        path:"AboutSection"
+        path:"#about"
     },
     {
         title:"Projects",
@@ -17,7 +17,11 @@ const navLinks=[
     {
         title:"Contact",
         path:"#contact"
-    },
+    },{
+      title:"Experience",
+      path:"#experience"
+
+    }
 ]
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen]=useState(false);

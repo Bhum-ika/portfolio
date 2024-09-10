@@ -7,10 +7,10 @@ import {animate, motion,useInView} from "framer-motion"
 const projectsData = [
   {
     id: 1,
-    title: "Ecomzy",
-    description: "Redux based Ecommerce website",
-    image: "/images/Project1.png",
-    tag: ["All", "Web"],
+    title: "ManageSphere",
+    description: "Centralized system for devOps,developers and testers",
+    image: "/images/Project5.png",
+    tag: ["All", "React","Firebase"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -18,28 +18,28 @@ const projectsData = [
     id: 2,
     title: "Ecomzy",
     description: "Redux based Ecommerce website",
-    image: "/images/Project2.png",
-    tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/images/Project1.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Bhum-ika/ecomzy",
+    previewUrl: "https://ecomzy-swart.vercel.app/",
   },
   {
     id: 3,
-    title: "Ecomzy",
-    description: "Redux based Ecommerce website",
+    title: "WeatherFinder",
+    description: "Weather API integrated website to display weather across the country",
     image: "/images/Project3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Javascript"],
+    gitUrl: "https://github.com/Bhum-ika/weather-app",
+    previewUrl: "https://bhum-ika.github.io/weather-app/",
   },
   {
     id: 4,
-    title: "Ecomzy",
-    description: "Redux based Ecommerce website",
+    title: "CourseApp",
+    description: "Allows the user to filter and select the preferred course",
     image: "/images/Project4.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Bhum-ika/Course-App",
+    previewUrl: "https://course-app-lilac.vercel.app/",
   },
 ];
 
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
 
   }
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-white text-center text-4xl font-bold mt-4 mb:8 md:mb-12 ">
         My Projects
       </h2>
@@ -75,13 +75,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React"
+          isSelected={tag === "React"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Javascript"
+          isSelected={tag === "Javascript"}
+        />
+         <ProjectTag
+          onClick={handleTagChange}
+          name="Firebase"
+          isSelected={tag === "Firebase"}
         />
       </div>
       <ul  ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12 px-4">
