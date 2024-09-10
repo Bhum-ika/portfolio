@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 const HeroSection = () => {
   return(
    <section className='pb-16 pt-24'>
-    <div className='grid grid-cols-2 sm:grid-cols-12'>
+     <div className='flex flex-wrap-reverse sm:flex-nowrap'>
    <motion.div initial={{opacity:0, scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-snug font-extrabold">
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
@@ -40,7 +40,7 @@ const HeroSection = () => {
     </div>
     </motion.div> 
     <motion.div initial={{opacity:0, scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='col-span-4 place-self-center mt-4 lg:mt-0'>
-    <div className='rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative overflow-hidden' style={{ background: 'none', boxShadow: '10px 4px 10px rgba(145, 170, 219, 0.33), -10px -4px 10px rgba(135, 178, 212, 0.33), -4px 10px 15px 6px rgba(194, 8, 219, 0.33)' }}>
+    <div className='rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative overflow-hidden mb-8 ' style={{ background: 'none', boxShadow: '10px 4px 10px rgba(145, 170, 219, 0.33), -10px -4px 10px rgba(135, 178, 212, 0.33), -4px 10px 15px 6px rgba(194, 8, 219, 0.33)' }}>
   <Image
     src='/images/hero-image.jpg'
     alt="hero image"
